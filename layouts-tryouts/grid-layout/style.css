@@ -1,0 +1,65 @@
+.Grid {
+    
+    display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+
+    font-family: cursive;
+    font-size: medium;
+    gap: 40px 50px;
+    
+}
+.one{
+    grid-column: 1;
+    grid-row: 1;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: blue;
+    display: flex;
+    background-color: orchid;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.two{
+    grid-column: 2;
+    grid-row: 1;
+    border-style: dashed;
+    border-radius: 25px;
+    border-color: blue;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.three{
+    grid-column: 1;
+    grid-row: 2;
+    border-style: dashed;
+    border-radius: 25px;
+    border-color: blue;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.four{
+    grid-column: 2;
+    grid-row: 2;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 25px;
+    background-color: orchid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    background-color: bisque;
+}
+
